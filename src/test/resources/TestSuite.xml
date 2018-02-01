@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Iherb">
+    <test name="Search">
+        <classes>
+            <class name="com.epam.kiian.restassured.restAssuredTests">
+                <!--<methods>
+                    <include name="testSearchFromMainPageWithCorrectRequest"/>
+                    <include name="testSearchWithNonExistedResult"/>
+                    <include name="testSearchWithIllegalCharactersInRequest"/>
+                    <include name="testFilterSearchByPrice"/>
+                    <include name="testRemoveFilters"/>
+                </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>
