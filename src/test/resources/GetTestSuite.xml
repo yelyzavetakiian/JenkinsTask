@@ -8,6 +8,8 @@
                 <methods>
                     <include name="testGetPostById"/>
                     <include name="testGetAllPosts"/>
+                    <include name="testGetPostsByUserId"/>
+                    <include name="testGetCommentsByPostId"/>
                 </methods>
             </class>
         </classes>
