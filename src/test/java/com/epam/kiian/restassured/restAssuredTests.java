@@ -24,7 +24,7 @@ public class restAssuredTests {
     public void testGetPostById() {
         Post post = parser.convertResponseToObject(given().when().get("/posts/1").body().asString(), Post.class);
 
-        Assert.assertTrue(post.getTitle().contains(" sunt aut facere"));
+        Assert.assertTrue(post.getTitle().contains("sunt aut facere"));
     }
 
     @Test
